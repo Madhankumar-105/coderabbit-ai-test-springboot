@@ -15,6 +15,17 @@ public class CodeRabbitAiTestSpringbootApplication {
 
     @GetMapping()
     public String helloWorld(){
+        double[][] data = new double[0][];
+        for (int i = 0; i < data.length; i++) {
+            for (int j = 0; j < data[i].length; j++) {
+                if (data[i][j] > 0) {
+                    // Doing the same operation repeatedly
+                    int processedValue = (int) (data[i][j] * 2);
+                    System.out.println(processedValue);
+                    System.out.println(processedValue);
+                }
+            }
+        }
         return "Hello World";
     }
 
