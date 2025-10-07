@@ -25,7 +25,6 @@ public class CodeRabbitAiTestSpringbootApplication {
                     // Doing the same operation repeatedly
                     int processedValue = (int) (data[i][j] * 2);
                     System.out.println(processedValue);
-                    System.out.println(processedValue);
                 }
             }
         }
